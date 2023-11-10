@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="">
+<!--<form action="myform" >
     <div>
         <span>Number 1<input type="number" id="numb1"></span>
     </div>
@@ -17,9 +17,16 @@
         <label id="output"></label>
     </div>
     <div>
-        <button type="button" onclick="value">Addition</button>
+        <button type="button" data-submit="btnAddition">Addition</button>
     </div>
 </form>
-    <script type="/script/code.js"></script>
+
+<form name="myform" action="https://echo.zuplo.io/" method="POST">
+    <input type="text" name="inputbox" value="" />
+    <input type="range" name="range" min="0" max="100">
+    <input type="color" name="color">
+    <input type="button" name="button" value="Click" onClick="testResults(this.form)" />
+    </form>-->
+    <script src="/script/code.js"></script>
 </body>
 </html>
